@@ -6,7 +6,7 @@
     <title>Scrollama: Sticky Side Example</title>
     <meta name="description" content="Scrollama: Sticky Side Example" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
     <style>
       #scrolly {
         position: relative;
@@ -75,10 +75,26 @@
   </head>
   
   <body>
-    <div id="centered">
-        <img class="color-picture" src="https://wallpapercave.com/wp/wp3186015.jpg" alt="Blue">
-        <img class="color-picture" src="https://wallpaperset.com/w/full/2/a/8/248952.jpg" alt="Red">
-        <img class="color-picture" src="https://wallpapercave.com/wp/wp2985993.jpg" alt="Orange">
-    </div>
+    <section id="scrolly">
+      <article>
+        <div id="centered" data-step="1">
+          <img class="color-picture" src="https://wallpapercave.com/wp/wp3186015.jpg" alt="Blue">
+        </div>
+        <div id="centered" data-step="2">
+          <img class="color-picture" src="Jazz.jpg" alt="Red">
+        </div>
+        <div id="centered" data-step="3">
+          <img class="color-picture" src="https://wallpapercave.com/wp/wp2985993.jpg" alt="Orange">
+        </div>
+      </article>
+      
+        <div class="sticky-thing">
+          <p>0</p>
+        </div>
+    </section>
+
+
+
+
   </body>
 </html>
